@@ -1,0 +1,41 @@
+header{
+  position: relative;
+  background:white;
+  padding: 0;
+  border-bottom: 1px solid red;
+}
+
+a{
+  color:red
+}
+
+a:hover{
+  background:color;
+  color: white;
+  cursor: pointer;
+}
+
+.container{
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+a .logo{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1 rem;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+ul a{
+  padding:1 rem;
+  display: inline-block;
+}
